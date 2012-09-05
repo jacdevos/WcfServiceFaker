@@ -1,11 +1,11 @@
 using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using NUnit.Framework;
 using WcfServiceFaker;
 
 namespace WcfServiceFakerFixture
 {
-    [TestClass]
+    [TestFixture]
     public class ServerSideDynamicProxyFixture
     {
         public interface ITest
@@ -14,7 +14,7 @@ namespace WcfServiceFakerFixture
             Object TestFunctionTwo(Object a, Object b);
         }
 
-        [TestMethod]
+        [Test]
         public void Should_Be_Able_To_Call_AllMethods()
         {
             //arrange
@@ -38,7 +38,7 @@ namespace WcfServiceFakerFixture
 		}
 
 
-        [TestMethod]
+        [Test]
         public void Should_Allow_The_ServiceImplementation_To_Change_Inside_Proxy()
         {
             //arrange

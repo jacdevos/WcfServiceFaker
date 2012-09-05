@@ -1,15 +1,15 @@
 ﻿using System;
+using NUnit.Framework;
 using WcfServiceFakerFixture.DummyService;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
 namespace WcfServiceFakerFixture
 {
-    [TestClass]
+    //[TestFixture]
     public class WcfServiceFakerFixture
     {
 
-        [TestMethod]
+        [Test]
         public void Should_Be_Fast()
         {
             var startTime = DateTime.Now;
@@ -33,7 +33,7 @@ namespace WcfServiceFakerFixture
             Assert.IsTrue(runTime.TotalSeconds < 5, string.Format("Too slow. {0} service calls took {1} seconds", iterations, runTime.TotalSeconds));
         }
 
-        [TestMethod]
+        [Test]
         public void Should_Call_The_Instance_That_Was_Set()
         {
             //arrange
@@ -47,7 +47,7 @@ namespace WcfServiceFakerFixture
             Assert.AreEqual("expectedOutput",output);
         }
 
-        [TestMethod]
+        [Test]
         public void Should_Support_ManyServiceImplementationInstances()
         {
             //arrange
@@ -71,7 +71,7 @@ namespace WcfServiceFakerFixture
             Assert.AreEqual("expectedOutputInstance2", outputInstance2);
         }
 
-        [TestMethod]
+        [Test]
         public void Should_Support_ManyServiceTypes()
         {
             //arrange
