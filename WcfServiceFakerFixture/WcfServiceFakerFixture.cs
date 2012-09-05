@@ -5,7 +5,7 @@ using Moq;
 
 namespace WcfServiceFakerFixture
 {
-    //[TestFixture]
+    [TestFixture,Ignore]
     public class WcfServiceFakerFixture
     {
 
@@ -33,7 +33,7 @@ namespace WcfServiceFakerFixture
             Assert.IsTrue(runTime.TotalSeconds < 5, string.Format("Too slow. {0} service calls took {1} seconds", iterations, runTime.TotalSeconds));
         }
 
-        [Test]
+        [Test,Ignore]
         public void Should_Call_The_Instance_That_Was_Set()
         {
             //arrange
@@ -47,7 +47,7 @@ namespace WcfServiceFakerFixture
             Assert.AreEqual("expectedOutput",output);
         }
 
-        [Test]
+        [Test, Ignore]
         public void Should_Support_ManyServiceImplementationInstances()
         {
             //arrange
@@ -71,7 +71,7 @@ namespace WcfServiceFakerFixture
             Assert.AreEqual("expectedOutputInstance2", outputInstance2);
         }
 
-        [Test]
+        [Test, Ignore]
         public void Should_Support_ManyServiceTypes()
         {
             //arrange
