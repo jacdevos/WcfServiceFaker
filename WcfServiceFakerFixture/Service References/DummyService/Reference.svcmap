@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8ce4ed87-bdd2-4f95-87e2-284f448e0e90" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1229/DummyService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DummyService.xsd" MetadataType="Schema" ID="14eb256e-9e2d-4792-b878-4ac5b19d5912" SourceId="1" SourceUrl="http://localhost:1229/DummyService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DummyService.wsdl" MetadataType="Wsdl" ID="33b5278b-4249-421f-acb5-06e5805408c5" SourceId="1" SourceUrl="http://localhost:1229/DummyService.svc?wsdl" />
+    <MetadataFile FileName="DummyService.disco" MetadataType="Disco" ID="29db5eae-ae7a-4218-8785-23aa0a0ed49c" SourceId="1" SourceUrl="http://localhost:1229/DummyService.svc?disco" />
+    <MetadataFile FileName="DummyService1.xsd" MetadataType="Schema" ID="b755ed1a-4750-4f87-bfcb-947564438c50" SourceId="1" SourceUrl="http://localhost:1229/DummyService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

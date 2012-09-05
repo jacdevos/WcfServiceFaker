@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceFaker", "WcfServiceFaker\WcfServiceFaker.csproj", "{1D593F7C-13D0-4A17-9DD0-33542945B29B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceFakerFixture", "WcfServiceFakerFixture\WcfServiceFakerFixture.csproj", "{9E23470B-D4E7-4CD2-9EA7-DAF7BD60AD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyServiceNeededToCreateServiceReference", "DummyServiceNeededToCreateServiceReference\DummyServiceNeededToCreateServiceReference.csproj", "{46CD4F7F-09C8-47B2-8533-087AC36B9B07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5CB70012-29F7-41F9-AB42-E5EC1D9742DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D593F7C-13D0-4A17-9DD0-33542945B29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D593F7C-13D0-4A17-9DD0-33542945B29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D593F7C-13D0-4A17-9DD0-33542945B29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D593F7C-13D0-4A17-9DD0-33542945B29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E23470B-D4E7-4CD2-9EA7-DAF7BD60AD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E23470B-D4E7-4CD2-9EA7-DAF7BD60AD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E23470B-D4E7-4CD2-9EA7-DAF7BD60AD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E23470B-D4E7-4CD2-9EA7-DAF7BD60AD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46CD4F7F-09C8-47B2-8533-087AC36B9B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CD4F7F-09C8-47B2-8533-087AC36B9B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CD4F7F-09C8-47B2-8533-087AC36B9B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CD4F7F-09C8-47B2-8533-087AC36B9B07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46CD4F7F-09C8-47B2-8533-087AC36B9B07} = {5CB70012-29F7-41F9-AB42-E5EC1D9742DC}
+		{1D593F7C-13D0-4A17-9DD0-33542945B29B} = {5CB70012-29F7-41F9-AB42-E5EC1D9742DC}
+	EndGlobalSection
+EndGlobal
